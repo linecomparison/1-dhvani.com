@@ -1,0 +1,21 @@
+/* Example of a media query for screens smaller than 720px */
+
+canvas {
+  width: 45vw;
+  height: 90vh;
+}
+@media only screen and (max-width: 768px) {
+  /* Styles specific to mobile devices */
+  canvas {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+/* Media query for tablet devices */
+@media only screen and (max-width: 500px) {
+  canvas {
+    width: 100vw;
+    height: 50vh;
+  }
+}
