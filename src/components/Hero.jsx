@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import Spline from "./Spline/Spline";
 import Star from "./Design/Star";
-import PaperPlane from "./Design/paperPlane";
+import PaperPlane from "./Design/PaperPlane";
 
 function Hero() {
   const [animateText, setAnimateText] = useState(false);
