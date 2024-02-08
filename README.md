@@ -1,8 +1,16 @@
-# React + Vite
+## Dhvani's website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repo is home for the codebase that powers my entire website.
 
-Currently, two official plugins are available:
+## License
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Copyright (c) 2024-present Dhvani Patel. All rights reserved.
+
+**The code and design in this repository are intellectual property of
+the individual mentioned above (unless otherwise stated) and as such CANNOT be
+copied, modified, sublicensed or redistributed without permission from the
+author.**
+
+##Contact
+
+If you have any questions or feedback, please feel free to contact me at [Linkedin](https://www.linkedin.com/in/dhvani-p/).
