@@ -27,7 +27,7 @@ const Navbar = () => {
                 className="w-5 h-5"
                 initial={{ x: 80 + i + 1 }}
                 animate={{ x: 0 }}
-                transition={{ duration: i, delay: 2 }}
+                transition={{ duration: i+1, delay: 2 }}
               />
             </motion.li>
           ))}
