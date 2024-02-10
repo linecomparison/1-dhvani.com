@@ -1,10 +1,11 @@
-import { Suspense, useRef } from "react";
+import { Suspense, useEffect, useState, useRef } from "react";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
+import CanvasLoader from "./Loader"
 import "./style.css";
 
 const MyModel = () => {
-  const myModel = useGLTF("./drp.gltf");
+  const myModel = useGLTF("./Model/drp.gltf");
   const groupRef = useRef();
   return (
     <group ref={groupRef} position={[0, -2.6, 0]}>
@@ -32,7 +33,7 @@ const Spline = () => {
       gl={{ preserveDrawingBuffer: true }}
     >
       <ambientLight intensity={0.6} />
-      <Suspense fallback={<>loading.......</>}>
+      <Suspense fallback={<CanvasLoader/>}>
         <OrbitControls
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
@@ -46,4 +47,3 @@ const Spline = () => {
 };
 
 export default Spline;
-// position={[0, -2.6, 0]}

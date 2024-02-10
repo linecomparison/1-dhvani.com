@@ -49,7 +49,7 @@ function Hero() {
         type: "spring",
         stiffness: 50,
         ease: "easeInOut",
-        delay: 4.6,
+        delay: 3.8,
       },
     },
     hover: { scale: 1.1, boxShadow: "0px 0px 8px #eb771e" },
@@ -90,7 +90,7 @@ function Hero() {
             className="text-lg text-white leading-relaxed mt-5"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 4.5, ease: "easeInOut" }}
+            transition={{ delay: 3.5, ease: "easeInOut" }}
           >
             A person who likes to craft convenient and beautiful <br />
             interfaces with great user experiences.
@@ -98,7 +98,7 @@ function Hero() {
         </div>
 
         <a
-          href="https://drive.google.com/file/d/1pKAWE0B2k1tykQxBUy9eVdAEGg1V5Koz/view?usp=sharing"
+          href="https://drive.google.com/file/d/1boBfbsVoSP7fPPKityzlUqE75PWyKQ6t/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >

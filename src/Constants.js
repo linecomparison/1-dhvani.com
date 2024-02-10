@@ -8,16 +8,16 @@ export const skills = [
     rotation: "rotate-[18deg]",
   },
   {
+    name: "redux",
+    rotation: "-rotate-[42deg]",
+  },
+  {
     name: "nextjs",
     rotation: "-rotate-[16deg]",
   },
   {
     name: "cpp",
     rotation: "rotate-6",
-  },
-  {
-    name: "postman",
-    rotation: "-rotate-[27deg]",
   },
   {
     name: "figma",
@@ -32,8 +32,8 @@ export const skills = [
     rotation: "-rotate-[16deg]",
   },
   {
-    name: "github",
-    rotation: "-rotate-[42deg]",
+    name: "postman",
+    rotation: "-rotate-[27deg]",
   },
   {
     name: "mongodb",
