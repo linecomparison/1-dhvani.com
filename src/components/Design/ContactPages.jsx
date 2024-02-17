@@ -35,7 +35,7 @@ function ContactPages() {
         />
       </a>
       <a
-        href="https://twitter.com/_Knight_03?t=RAUCj1kaiYvTS-_A6bwa8w&s=09"
+        href="https://twitter.com/mithi_dal"
         target="_blank"
         rel="noreferrer"
         data-aos="flip-right"
